@@ -1,11 +1,11 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
 // $NoKeywords: $
 //=============================================================================
 
-#include<stdio.h>
+#include<cstdio>
 #include"vgui_ControlConfigPanel.h"
 #include<VGUI_HeaderPanel.h>
 #include<VGUI_TablePanel.h>

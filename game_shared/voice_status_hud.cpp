@@ -22,8 +22,8 @@
 
 #include "cl_util.h"
 #include <assert.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 #include "parsemsg.h"
 #include "demo.h"
 #include "demo_api.h"

@@ -22,8 +22,8 @@
 #include "cl_util.h"
 #include "parsemsg.h"
 
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 extern float *GetClientColor( int clientIndex );
 extern hud_player_info_t	g_PlayerInfoList[MAX_PLAYERS+1];

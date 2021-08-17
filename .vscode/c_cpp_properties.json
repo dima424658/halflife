@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "forcedInclude": [
+                "${workspaceFolder}/cl_dll",
+                "${workspaceFolder}/dlls",
+                "${workspaceFolder}/game_shared",
+                "${workspaceFolder}/pm_shared",
+                "${workspaceFolder}/public",
+                "${workspaceFolder}/common",
+                "${workspaceFolder}/tfc",
+                "${workspaceFolder}/engine",
+                "${workspaceFolder}/utils/vgui/include",
+                "${workspaceFolder}/external"
+            ],
+            "defines": [
+                "LINUX",
+                "_LINUX ",
+                "NDEBUG",
+                "POSIX",
+                "_POSIX",
+                "LINUX",
+                "_LINUX",
+                "GNUC",
+                "HL1",
+                "stricmp=strcasecmp",
+                "_strnicmp=strncasecmp",
+                "strnicmp=strncasecmp",
+                "_snprintf=snprintf",
+                "QUIVER",
+                "QUAKE2",
+                "VALVE_DLL",
+                "_alloca=alloca",
+                "_vsnprintf=vsnprintf",
+                "NO_MALLOC_OVERRIDE",
+                "CLIENT_DLL",
+                "CLIENT_WEAPONS",
+                "HL_DLL -I/usr/include/malloc",
+                "_snwprintf=swprintf",
+                "DISABLE_JUMP_ORIGIN",
+                "DISABLE_VEC_ORIGIN"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [],
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

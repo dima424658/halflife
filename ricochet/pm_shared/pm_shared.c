@@ -21,9 +21,9 @@
 #include "pm_shared.h"
 #include "pm_movevars.h"
 #include "pm_debug.h"
-#include <stdio.h>  // NULL
+#include <cstdio>  // NULL
 #include <math.h>   // sqrt
-#include <string.h> // strcpy
+#include <cstring> // strcpy
 #include <stdlib.h> // atoi
 #include <ctype.h>  // isspace
 

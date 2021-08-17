@@ -8,7 +8,7 @@
 // Author: Matthew D. Campbell (matt@turtlerockstudios.com), 2003
 
 #include <port.h>
-#include <stdarg.h>
+#include <cstdarg>
 #include "shared_util.h"
 
 #ifndef _WIN32

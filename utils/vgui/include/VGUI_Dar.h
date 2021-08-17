@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -9,7 +9,7 @@
 #define VGUI_DAR_H
 
 #include<stdlib.h>
-#include<string.h>
+#include<cstring>
 #include<VGUI.h>
 
 

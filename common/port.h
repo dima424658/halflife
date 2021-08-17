@@ -18,18 +18,18 @@
 #include "winsani_out.h"
 
 #include <stdlib.h>
-#include <stdio.h>
-#include <stdarg.h>
+#include <cstdio>
+#include <cstdarg>
 
 #define snprintf _snprintf
 #define vsnprintf _vsnprintf
 
 #else // _WIN32
 
-#include <stdio.h>
+#include <cstdio>
 #include <stdlib.h>
 #include <unistd.h> // exit()
-#include <string.h> // strncpy()
+#include <cstring> // strncpy()
 #include <ctype.h> // tolower()
 #include <limits.h>
 #include <sys/time.h>

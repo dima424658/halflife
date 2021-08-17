@@ -1,12 +1,12 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
 // $NoKeywords: $
 //=============================================================================
 
-#include <stdarg.h>
-#include <stdio.h>
+#include <cstdarg>
+#include <cstdio>
 #include "vgui_checkbutton2.h"
 #include "vgui_loadtga.h"
 

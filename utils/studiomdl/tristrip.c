@@ -15,7 +15,7 @@
 #pragma warning( disable : 4305 )
 
 
-#include <stdio.h>
+#include <cstdio>
 #include <stdlib.h>
 #include <sys/stat.h>
 

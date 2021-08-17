@@ -23,9 +23,9 @@
 #define FALSE 0
 #endif
 
-#include <stdio.h> // for safe_sprintf()
-#include <stdarg.h> // "
-#include <string.h> // for safe_strcpy()
+#include <cstdio> // for safe_sprintf()
+#include <cstdarg> // "
+#include <cstring> // for safe_strcpy()
 
 
 // Macros to hook function calls into the HUD object

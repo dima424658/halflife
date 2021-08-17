@@ -2,7 +2,7 @@
 // l3dslib.c: library for loading triangles from an Alias triangle file
 //
 
-#include <stdio.h>
+#include <cstdio>
 #include "cmdlib.h"
 #include "mathlib.h"
 #include "trilib.h"

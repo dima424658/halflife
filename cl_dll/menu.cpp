@@ -21,8 +21,8 @@
 #include "cl_util.h"
 #include "parsemsg.h"
 
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 #include "vgui_TeamFortressViewport.h"
 
@@ -187,8 +187,8 @@ int CHudMenu :: Draw( float flTime )
 			{
 				sptr++;
 			}
-			strncpy( menubuf, ptr, min( ( sptr - ptr), (int)sizeof( menubuf ) ));
-			menubuf[ min( ( sptr - ptr), (int)(sizeof( menubuf )-1) ) ] = '\0';
+			strncpy( menubuf, ptr, min( (unsigned long)( sptr - ptr), sizeof( menubuf ) ));
+			menubuf[ min( (unsigned long)( sptr - ptr), (sizeof( menubuf )-1) ) ] = '\0';
 			
 			if ( menu_ralign )
 			{		

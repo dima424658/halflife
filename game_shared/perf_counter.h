@@ -30,9 +30,9 @@
 
 #include <assert.h>
 //#include <malloc.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdarg.h>
+#include <cstdio>
+#include <cstring>
+#include <cstdarg>
 #include <stdlib.h>
 #include <math.h>
 

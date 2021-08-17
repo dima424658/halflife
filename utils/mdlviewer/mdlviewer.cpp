@@ -6,7 +6,7 @@
 // updates:
 // 1-4-98	fixed initialization
 
-#include <stdio.h>
+#include <cstdio>
 
 #include <windows.h>
 

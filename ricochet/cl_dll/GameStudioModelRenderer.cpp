@@ -9,8 +9,8 @@
 #include "dlight.h"
 #include "triangleapi.h"
 
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <memory.h>
 #include <math.h>
 

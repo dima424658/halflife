@@ -10,10 +10,10 @@
 #ifndef SHARED_UTIL_H
 #define SHARED_UTIL_H
 #ifdef LINUX
-#include <string.h>
+#include <cstring>
 #include <wchar.h>
 #endif
-#include <string.h>
+#include <cstring>
 
 //--------------------------------------------------------------------------------------------------------
 /**

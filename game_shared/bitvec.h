@@ -14,7 +14,7 @@
 
 #include "archtypes.h"     // DAL
 #include <assert.h>
-#include <string.h>
+#include <cstring>
 
 
 class CBitVecAccessor

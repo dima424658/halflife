@@ -12,7 +12,7 @@
 // 2-8-99	fixed demand loaded sequence bug (thanks to Frans 'Otis' Bouma)
 
 ////////////////////////////////////////////////////////////////////////
-#include <stdio.h>
+#include <cstdio>
 
 #include <windows.h>
 

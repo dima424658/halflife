@@ -26,6 +26,8 @@ CBaseEntity
 				CBaseGroup
 */
 
+#include <cstddef>
+
 #define		MAX_PATH_SIZE	10 // max number of nodes available for a path.
 
 // These are caps bits to indicate what an object's capabilities (currently used for save/restore and level transitions)
@@ -287,8 +289,8 @@ public:
 #ifdef _DEBUG
 	void FunctionCheck( void *pFunction, char *name ) 
 	{ 
-		if (pFunction && !NAME_FOR_FUNCTION((uint32)pFunction) )
-			ALERT( at_error, "No EXPORT: %s:%s (%08lx)\n", STRING(pev->classname), name, (uint32)pFunction );
+		if (pFunction && !NAME_FOR_FUNCTION((std::ptrdiff_t)pFunction) )
+			ALERT( at_error, "No EXPORT: %s:%s (%08lx)\n", STRING(pev->classname), name, (std::ptrdiff_t)pFunction );
 	}
 
 	BASEPTR	ThinkSet( BASEPTR func, char *name ) 

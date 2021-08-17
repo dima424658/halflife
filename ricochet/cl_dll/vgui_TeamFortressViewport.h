@@ -17,7 +17,7 @@
 #include<VGUI_App.h>
 #include<VGUI_MiniApp.h>
 #include<VGUI_LineBorder.h>
-#include<VGUI_String.h>
+#include<VGUI_cstring>
 #include<VGUI_ScrollPanel.h>
 #include<VGUI_ScrollBar.h>
 #include<VGUI_Slider.h>

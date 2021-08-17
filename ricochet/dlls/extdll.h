@@ -55,8 +55,8 @@ typedef int BOOL;
 #define MAX_PATH PATH_MAX
 
 #include <limits.h>
-#include <stdarg.h>
-#include <string.h>
+#include <cstdarg>
+#include <cstring>
 
 #ifndef min
 #define min(a,b)  (((a) < (b)) ? (a) : (b))
@@ -72,7 +72,7 @@ typedef int BOOL;
 #endif //_WIN32
 
 // Misc C-runtime library headers
-#include "stdio.h"
+#include "cstdio"
 #include "stdlib.h"
 #include "math.h"
 

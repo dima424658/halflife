@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -12,7 +12,7 @@
 #include<VGUI_SurfaceBase.h>
 #include<VGUI_TextEntry.h>
 #include<VGUI_ActionSignal.h>
-#include<string.h>
+#include<cstring>
 #include "hud.h"
 #include "cl_util.h"
 #include "camera.h"

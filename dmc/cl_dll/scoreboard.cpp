@@ -22,8 +22,8 @@
 #include "cl_util.h"
 #include "parsemsg.h"
 
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 DECLARE_COMMAND( m_Scoreboard, ShowScores );
 DECLARE_COMMAND( m_Scoreboard, HideScores );

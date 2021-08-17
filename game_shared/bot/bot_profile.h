@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -13,7 +13,7 @@
 #pragma warning( disable : 4786 )	// long STL names get truncated in browse info.
 #ifdef LINUX
 #include <strings.h>
-#include <stdio.h>
+#include <cstdio>
 #endif
 
 #undef min

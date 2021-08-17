@@ -13,13 +13,13 @@
 #ifndef __CMDLIB__
 #define __CMDLIB__
 
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <stdlib.h>
 #include <errno.h>
 #include <ctype.h>
 #include <time.h>
-#include <stdarg.h>
+#include <cstdarg>
 
 #ifdef __cplusplus
 extern "C"

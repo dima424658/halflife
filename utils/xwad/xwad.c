@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <stdlib.h>
 #include <errno.h>
 #include <ctype.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 //#include <sys/file.h>
-#include <stdarg.h>
+#include <cstdarg>
 
 #include "cmdlib.h"
 

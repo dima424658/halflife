@@ -1,6 +1,7 @@
 // Client side entity management functions
 
-#include <memory.h>
+#include <cstddef>
+#include <memory>
 
 #include "hud.h"
 #include "cl_util.h"
@@ -532,8 +533,8 @@ void CL_DLLEXPORT HUD_TempEntUpdate (
 				s = sin( pTemp->entity.baseline.origin[2] + fastFreq );
 				c = cos( pTemp->entity.baseline.origin[2] + fastFreq );
 
-				pTemp->entity.origin[0] += pTemp->entity.baseline.origin[0] * frametime + 8 * sin( client_time * 20 + (int)pTemp );
-				pTemp->entity.origin[1] += pTemp->entity.baseline.origin[1] * frametime + 4 * sin( client_time * 30 + (int)pTemp );
+				pTemp->entity.origin[0] += pTemp->entity.baseline.origin[0] * frametime + 8 * sin( client_time * 20 + (std::ptrdiff_t)pTemp );
+				pTemp->entity.origin[1] += pTemp->entity.baseline.origin[1] * frametime + 4 * sin( client_time * 30 + (std::ptrdiff_t)pTemp );
 				pTemp->entity.origin[2] += pTemp->entity.baseline.origin[2] * frametime;
 			}
 			

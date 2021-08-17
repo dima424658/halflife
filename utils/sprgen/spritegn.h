@@ -36,9 +36,9 @@
 #ifdef INCLUDELIBS
 
 #include <stdlib.h>
-#include <stdio.h>
+#include <cstdio>
 #include <math.h>
-#include <string.h>
+#include <cstring>
 
 #include "cmdlib.h"
 #include "scriplib.h"

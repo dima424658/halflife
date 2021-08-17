@@ -18,13 +18,13 @@
 // implementation of class-less helper functions
 //
 
-#include "stdio.h"
+#include "cstdio"
 #include "stdlib.h"
 #include "math.h"
 
 #include "hud.h"
 #include "cl_util.h"
-#include <string.h>
+#include <cstring>
 
 vec3_t vec3_origin( 0, 0, 0 );
 

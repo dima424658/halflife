@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -24,7 +24,7 @@ extern "C"
 #include "camera.h"
 #include "in_defs.h"
 #include "view.h"
-#include <string.h>
+#include <cstring>
 #include <ctype.h>
 #include "vgui_viewport.h"
 #include "voice_status.h"

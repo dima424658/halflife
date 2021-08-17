@@ -18,7 +18,7 @@
 // implementation of CHudHealth class
 //
 
-#include "stdio.h"
+#include "cstdio"
 #include "stdlib.h"
 #include "math.h"
 
@@ -26,7 +26,7 @@
 #include "cl_util.h"
 #include "parsemsg.h"
 #include "vgui_TeamFortressViewport.h"
-#include <string.h>
+#include <cstring>
 
 
 DECLARE_MESSAGE(m_Health, Health )

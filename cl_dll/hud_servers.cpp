@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -11,7 +11,7 @@
 #include "hud_servers_priv.h"
 #include "hud_servers.h"
 #include "net_api.h"
-#include <string.h>
+#include <cstring>
 #ifdef _WIN32
 #include "winsani_in.h"
 #include <winsock.h>

@@ -29,7 +29,7 @@
 #include "in_defs.h"
 #include "parsemsg.h"
 #include "ammo.h"
-#include "string.h"
+#include "cstring"
 #include "ammohistory.h"
 
 #include "vgui_int.h"

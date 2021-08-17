@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -8,7 +8,7 @@
 #ifndef VGUI_TEXTGRID_H
 #define VGUI_TEXTGRID_H
 
-#include<stdarg.h>
+#include<cstdarg>
 #include<VGUI.h>
 #include<VGUI_Panel.h>
 

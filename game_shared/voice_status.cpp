@@ -1,6 +1,6 @@
 
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 
 #include "wrect.h"
 #include "cl_dll.h"

@@ -22,8 +22,8 @@
 // the module specific types and m_dwLevel is set to the greater of the global
 // and the module specific settings.
 
-#include <stdarg.h>
-#include <stdio.h>
+#include <cstdarg>
+#include <cstdio>
 
 #include "extdll.h"
 #include "util.h"

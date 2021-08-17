@@ -23,8 +23,8 @@
 #include "parsemsg.h"
 #include "pm_shared.h"
 
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 #include "ammohistory.h"
 #include "vgui_TeamFortressViewport.h"
@@ -862,7 +862,7 @@ int CHudAmmo::Draw(float flTime)
 
 	AmmoWidth = gHUD.GetSpriteRect(gHUD.m_HUD_number_0).right - gHUD.GetSpriteRect(gHUD.m_HUD_number_0).left;
 
-	a = (int) max( MIN_ALPHA, m_fFade );
+	a = max( MIN_ALPHA, (int)m_fFade );
 
 	if (m_fFade > 0)
 		m_fFade -= (gHUD.m_flTimeDelta * 20);

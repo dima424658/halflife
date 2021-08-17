@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2002, Valve LLC, All rights reserved. ============
+//========= Copyright ï¿½ 1996-2002, Valve LLC, All rights reserved. ============
 //
 // Purpose: 
 //
@@ -23,7 +23,7 @@
 #include<VGUI_App.h>
 #include<VGUI_MiniApp.h>
 #include<VGUI_LineBorder.h>
-#include<VGUI_String.h>
+#include<VGUI_cstring>
 #include<VGUI_ScrollPanel.h>
 #include<VGUI_ScrollBar.h>
 #include<VGUI_Slider.h>

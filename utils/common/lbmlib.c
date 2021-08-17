@@ -11,7 +11,7 @@
 // lbmlib.c
 
 #include <WINDOWS.H>
-#include <STDIO.H>
+#include <cstdio>
 
 #include "cmdlib.h"
 #include "lbmlib.h"
